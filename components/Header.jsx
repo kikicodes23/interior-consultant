@@ -8,8 +8,6 @@ export function Header() {
 
     const [open, setOpen] = useState(false)
 
-    console.log("desktop " + open)
-
     return (
         <>
             <header className="px-3 py-[20px] sm:px-[77px] sm:pt-[42px] flex justify-between">
