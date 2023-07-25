@@ -9,10 +9,12 @@ export function Body() {
                 <h1 className="font-lora text-4xl xl:text-5xl font-medium xl:w-[365px]">Modern interior</h1>
                 <p className="text-sm xl:text-2xl font-normal w-[250px] xl:w-[380px]">A full-Service residential & commercial interior design and staging company offering professional organizing & <br/> eco-services. 
                 </p>
-                <div className="flex items-center gap-3">
+
+                <button className="flex items-center gap-3 group">
                     <p className="text-sm md:text-lg font-bold">Read more</p>
-                    <FaLongArrowAltRight />
-                </div>
+                    <FaLongArrowAltRight className="group-hover:animate-spin group-hover:animate-once"/>
+                </button>
+                
             </section>
 
             <section className="pt-8">

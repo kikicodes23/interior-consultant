@@ -13,10 +13,18 @@ export function MobileMenu({isOpen, setOpen}) {
 
             <nav className="min-h-screen py-8 flex flex-col justify-center items-center">
                 <ul className="flex flex-col items-center gap-8">
-                    <li className="text-center cursor-pointer text-lg font-medium relative after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-white">Home</li>
-                    <li className="text-center cursor-pointer text-lg font-medium">Collection</li>
-                    <li className="text-center cursor-pointer text-lg font-medium">About</li>
-                    <li className="text-center cursor-pointer text-lg font-medium">Contact</li>
+                    <li className="text-center cursor-pointer text-lg font-bold relative after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-white">
+                        <button>Home</button>
+                    </li>
+                    <li className="text-center cursor-pointer text-lg font-medium">
+                        <button>Collection</button>
+                    </li>
+                    <li className="text-center cursor-pointer text-lg font-medium">
+                        <button>About</button>
+                    </li>
+                    <li className="text-center cursor-pointer text-lg font-medium">
+                        <button>Contact</button>
+                    </li>
                 </ul>
             </nav>
         </section>
